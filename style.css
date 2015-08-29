@@ -1,0 +1,147 @@
+/* oxygen-regular - latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oxygen-v5-latin-regular.eot');
+  src: local('Oxygen'), local('Oxygen-Regular'),
+       url('fonts/oxygen-v5-latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('fonts/oxygen-v5-latin-regular.woff2') format('woff2'), 
+       url('fonts/oxygen-v5-latin-regular.woff') format('woff'),
+       url('fonts/oxygen-v5-latin-regular.ttf') format('truetype'),
+       url('fonts/oxygen-v5-latin-regular.svg#Oxygen') format('svg'); 
+}
+
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fredoka-one-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Fredoka One'), local('FredokaOne-Regular'),
+       url('fonts/fredoka-one-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/fredoka-one-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/fredoka-one-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/fredoka-one-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/fredoka-one-v4-latin-regular.svg#FredokaOne') format('svg'); /* Legacy iOS */
+}
+
+.navbar {
+	background-color: #FF732B;
+	border:0px;
+	border-radius:0px;
+}
+
+.navbar .container-fluid  .container a {
+	color:#FFFFFF
+}
+
+.navbar .container-fluid  .container .nav .dropdown-menu ul li > a{
+	color:#FFFFFF
+}
+
+body > nav > div > div > div:nth-child(2) > ul:nth-child(1) > li.dropdown.open > ul > li  a{color:#000}
+body > nav > div > div > div:nth-child(2) > ul:nth-child(1) > li:hover a{color:#000}
+
+
+#myCarousel{
+height:600px
+}
+
+.carousel-inner .fill  h1, .offer_heading{
+    font: 4.23076923em 'Fredoka One', cursive;
+    color: #fff;
+    text-align: center;
+    text-transform: lowercase;
+    margin-bottom: 1.45833333333%;
+    padding-top: 5%;
+    text-shadow: 12px 12px 0 rgba(0, 0, 0, 0.1);
+	font-width:bold;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+.carousel-inner .fill  .post-title {
+    font: 1.84615385em 'Fredoka One', cursive;
+    color: #ffea00;
+    text-transform: lowercase;
+    margin-bottom: 6.32911392405%;
+}
+
+
+.carousel-inner .fill .post-content {
+    font-size: .92307692308em;
+    line-height: 2;
+    font-weight: 500;
+    color: #fff;
+	
+	margin: 0 0 1em 0;
+    text-align: left;
+}
+
+.price h1{
+	width:100%;
+	height:100%;
+	background-color#DDD
+}
+
+.offer_heading{
+    font: 3.23076923em 'Fredoka One', cursive;
+    color: #fff;
+    text-align: center;
+    text-transform: lowercase;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    text-shadow: 12px 12px 0 rgba(0, 0, 0, 0.1);
+	font-width:bold;
+}
+
+html body section div.col-md-6 div.col-md-6 p.person-details, .news-twitter ul li p{
+	font-family: "PT Serif",serif;
+    font-style: italic;
+    line-height: 1.9;
+	color:#ffffff
+}
+
+html body section div.col-md-6 div.col-md-6 h2{
+	font-family: "PT Serif",serif;
+    font-style: italic;
+    line-height: 1.9;
+	color:#ffffff;
+	margin-top:30px;
+}
+
+.footer-widgets .wg-header{
+    font: 1.23076923em 'Fredoka One', cursive;
+    color: #ff742b;
+    text-transform: lowercase;
+    margin-bottom: 21px;
+    letter-spacing: 1px;
+}
+.footer-widgets .twitter-wg-header{
+    font: 1.23076923em 'Fredoka One', cursive;
+    color: #5AD2FF;
+    text-transform: lowercase;
+    margin-bottom: 21px;
+    letter-spacing: 1px;
+}
+
+.footer-widgets ul{
+	list-style-type:none;
+	margin-top:-10px;
+	
+}
+
+.footer-widgets ul li{
+	margin-left:-40px;
+}
+.footer-widgets ul li a{
+	text-decoration:none;
+	color:#90A0A5;
+}
+
